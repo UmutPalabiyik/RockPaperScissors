@@ -8,7 +8,7 @@ function History() {
   return (
     <div className="history">
       <h1 className="history__title">History</h1>
-      <div className="history-container">
+      <div className="history__container">
         {historyList.map((history, key) => (
           <p className={`history-container__round ${history.roundWinner}`} key={key}>
             {history.playerChoice}
